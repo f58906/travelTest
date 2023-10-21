@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/languageRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+            <RadioButton
+                android:id="@+id/radioButtonZhTw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="繁體中文 (zh-tw)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonZhCn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="簡體中文 (zh-cn)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="英文 (en)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonJa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日文 (ja)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonKo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="韓文(ko)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="西班牙文 (es)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="印尼文(id)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonTh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="泰文 (th)" />
+
+            <RadioButton
+                android:id="@+id/radioButtonVi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="越南文 (vi)" />
+        </RadioGroup>
+
+
+
+
+    <Button
+        android:id="@+id/selectLanguageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="确定" />
+</LinearLayout>
